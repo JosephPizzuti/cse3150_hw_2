@@ -5,7 +5,7 @@ import os
 def run_greeter(input_text):
     input_with_newline = input_text + "\n"
     result = subprocess.run(
-        ["./greeter"],
+        ["./greeter.out"],
         input=input_with_newline,
         capture_output=True,
         text=True,
